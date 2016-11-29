@@ -53,11 +53,11 @@
                             <show_in_store>0</show_in_store>
                             <validate>required-entry validate-hex</validate>
                             <depends>
-						        <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
-						    </depends>
+				<is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
+			    </depends>
                         </color>
                         <position translate="label">
                             <label>Position</label>
@@ -68,11 +68,11 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <depends>
-						        <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
-						    </depends>
+				<is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
+			    </depends>
                         </position>
                     </fields>
                 </frontend>
@@ -93,11 +93,11 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <depends>
-						        <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
-						    </depends>
+				<is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
+			    </depends>
                         </all>
                         <home translate="label">
                             <label>Home Page</label>
@@ -110,9 +110,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </home>
                         <cms translate="label">
@@ -126,9 +126,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </cms>
                         <category translate="label">
@@ -142,9 +142,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </category>
                         <product translate="label">
@@ -158,9 +158,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </product>
                         <checkout translate="label">
@@ -174,9 +174,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </checkout>
                         <cart translate="label">
@@ -190,9 +190,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </cart>
                         <account translate="label">
@@ -206,9 +206,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+				    <fieldset>general</fieldset>
+				    <value>1</value>
+				</is_enabled>
                             </depends>
                         </account>
                         <other translate="label">
@@ -222,9 +222,9 @@
                             <depends>
                                 <all>0</all>
                                 <is_enabled>
-						            <fieldset>general</fieldset>
-						            <value>1</value>
-						        </is_enabled>
+					<fieldset>general</fieldset>
+					<value>1</value>
+				</is_enabled>
                             </depends>
                         </other>
                     </fields>
