@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Vijay_ScrollToTop>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Vijay_ScrollToTop>
+    </modules>
+</config>

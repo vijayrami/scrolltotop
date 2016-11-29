@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <vijay_scrolltotop translate="title" module="vijay_scrolltotop">
+                                        <title>Vijay - Scroll To Top</title>
+                                    </vijay_scrolltotop>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <system>
+                        <children>
+                            <vijay_scrolltotop translate="title" module="vijay_scrolltotop">
+                                <title>Scroll To Top Management</title>
+                                <children>
+                                    <scrolltotop translate="title" module="vijay_scrolltotop">
+                                        <title>Scroll To Top Settings</title>
+                                        <sort_order>0</sort_order>
+                                    </scrolltotop>
+                                </children>
+                            </vijay_scrolltotop>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <system>
+            <children>
+                <vijay_scrolltotop translate="title" module="vijay_scrolltotop">
+                    <title>Scroll To Top Management</title>
+                    <sort_order>0</sort_order>
+                    <children>
+                        <scrolltotop translate="title" module="vijay_scrolltotop">
+                            <title>Scroll To Top Settings</title>
+                            <action>adminhtml/system_config/edit/section/vijay_scrolltotop</action>
+                            <sort_order>0</sort_order>
+                        </scrolltotop>
+                    </children>
+                </vijay_scrolltotop>
+            </children>
+        </system>
+
+    </menu>
+</config>
