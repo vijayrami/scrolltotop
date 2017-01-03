@@ -29,6 +29,7 @@ class Vijay_ScrollToTop_Helper_Page extends Mage_Core_Helper_Data
         $allowedActionNameList = array(
             'catalog_category_default',
             'catalog_category_layered',
+            'catalog_category_view',
         );
         $category = Mage::registry('current_category');
         return in_array(Mage::app()->getFrontController()->getAction()->getFullActionName(), $allowedActionNameList) && $category && $category->getId();
